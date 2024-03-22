@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 138c28bb96d96a84e8512e07648f3c35, type: 3}
+  m_Name: Item_BodyArmour_example
+  m_EditorClassIdentifier: 
+  uid: 4b9738d1-e6fa-46f8-8d98-fbf87dd005af
+  itemName: Default Item Name
+  icon: {fileID: 2800000, guid: 7cf69552fa930e845ba3e2cd8d005c28, type: 3}
+  image: {fileID: 2800000, guid: 81a3d457bf5c07d4ba63412836bb8977, type: 3}
+  requiredLevel: 0
+  modTable:
+  - {fileID: 11400000, guid: 2943a91ef95505540a488d0af37e6b73, type: 2}
+  - {fileID: 11400000, guid: b2711f2140093f94bbe47dcfb72f8597, type: 2}

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c47c3c488636f247a1d89a6af1f97e6, type: 3}
+  m_Name: Mod_AddAttackDamage_Weapon_Physical
+  m_EditorClassIdentifier: 
+  modName: Added Physical Damage Modifier
+  tiers:
+  - min: 1
+    max: 10
+    isCommon: 1
+    chance: 50
+    requiredItemLevel: 0
+  - min: 11
+    max: 30
+    isCommon: 1
+    chance: 50
+    requiredItemLevel: 12
+  - min: 31
+    max: 55
+    isCommon: 1
+    chance: 50
+    requiredItemLevel: 24
+  - min: 56
+    max: 90
+    isCommon: 1
+    chance: 50
+    requiredItemLevel: 36
+  - min: 91
+    max: 160
+    isCommon: 1
+    chance: 25
+    requiredItemLevel: 48
+  - min: 161
+    max: 400
+    isCommon: 0
+    chance: 12
+    requiredItemLevel: 60
+  damageType: 0
